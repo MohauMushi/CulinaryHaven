@@ -128,7 +128,7 @@ export default async function RootLayout({ children }) {
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
       </head>
-      <body className="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+      <body className="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
         <SessionProvider session={session}>
           <ThemeProvider>
             <Header />
